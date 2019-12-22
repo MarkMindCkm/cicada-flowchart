@@ -51,3 +51,4 @@ npm run build
   * font
   * ...
 * thumbnail
+* add custom picture
