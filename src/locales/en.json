@@ -1,0 +1,45 @@
+{
+    "node":{
+       "title1":"Single Node",
+       "titl2":"Multiple Node",
+       "head":"Style",
+       "fill":"Fill",
+       "stroke":"Stroke",
+       "font":"Font",
+       "fontStyle":"Font Style",
+       "fontSize":"Font Size",
+       "textFill":"Text Fill",
+       "nodeAlign":"Node Alignment",
+       "position":"Position",
+       "prefabrication":"Prefabrication Style"
+    },
+    "group":{
+        "head":"Style",
+        "fill":"Fill",
+        "stroke":"Stroke",
+        "showHead":"Show Head",
+        "font":"Font",
+        "fontStyle":"Font Style",
+        "fontSize":"Font Size",
+        "fontBackground":"Font Background",
+        "align":"Text Align",
+        "textFill":"Text Fill",
+        "position":"Position",
+        "prefabrication":"Prefabrication Style"
+    },
+    "edge":{
+        "head":"Style",
+        "fill":"Fill",
+        "stroke":"Stroke",
+        "lineDash":"Line Dash",
+        "lineStyle":"Line Style",
+        "turningDistance":"Turning Distance",
+        "font":"Font",
+        "fontStyle":"Font Style",
+        "fontSize":"Font Size",
+        "textFill":"Text Fill",
+        "nodeAlign":"Node Alignment",
+        "position":"Position",
+        "prefabrication":"Prefabrication Style"
+    }
+}
