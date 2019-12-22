@@ -21,3 +21,33 @@ npm run build
 
 ![8d02be4b-680f-4b2d-8f6d-91cc3aa77aa0.png](https://i.loli.net/2019/12/22/T7FEwyKtjCxIVH3.png)
 
+### Features
+
+* undo & redo
+* add node
+* add edge
+* create group
+* ungroup
+* copy node & copy group
+* delete
+* change node
+  * fill
+  * text fill
+  * stroke
+  * font size
+  * font style
+  * ...
+* change edge
+  * stroke
+  * line dash
+  * line style
+  * text fill
+  * font size
+  * ...
+* change group
+  * lock model & unlock model
+  * drag node to group && drag node leave from group
+  * background
+  * font
+  * ...
+* thumbnail
