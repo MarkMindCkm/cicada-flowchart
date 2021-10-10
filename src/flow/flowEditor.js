@@ -425,10 +425,12 @@ class FlowEditor extends zrender.Group {
                 });
                 node.createAnchors();
                 node.anch.refresh();
+                node.anch.hide();
             });
             if (nodes.length) {
                 let c = new cmd.AddNodes(nodes, this);
                 this.stack.execute(c);
+                this.selectItem(nodes[0]);
             }
         } else if (mark == 'group') {
             //let gpos=item.position.slice();
@@ -445,7 +447,8 @@ class FlowEditor extends zrender.Group {
                         position: [pos[0] + 20, pos[1] + 20]
                     });
                     node.createAnchors();
-                     node.anch.refresh();
+                    node.anch.refresh();
+                    node.anch.hide();
                 }
             });
 
@@ -462,6 +465,7 @@ class FlowEditor extends zrender.Group {
             cmds.push(c);
 
             this.stack.execute(new cmd.ManyCmd(cmds));
+            this.selectItems(nodes);
         }
     }
 
